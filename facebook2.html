@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+    }
+
+    header {
+      background-color: #1877f2;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    nav {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #1877f2;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 0 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    nav img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    section {
+      max-width: 600px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 10px;
+    }
+
+    .post {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .post img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .post p {
+      font-size: 1.1rem;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .post footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-info img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f0f2f5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Facebook
+  </header>
+
+  <nav>
+    <a href="#">
+      <img src="home-icon.png" alt="Home Icon">
+      Home
+    </a>
+    <a href="#">
+      <img src="friends-icon.png" alt="Friends Icon">
+      Friends
+    </a>
+    <a href="#">
+      <img src="messages-icon.png" alt="Messages Icon">
+      Messages
+    </a>
+    <a href="#">
+      <img src="notifications-icon.png" alt="Notifications Icon">
+      Notifications
+    </a>
+    <a href="#">
+      <img src="settings-icon.png" alt="Settings Icon">
+      Settings
+    </a>
+  </nav>
+
+  <main>
+    <section>
+      <div class="post">
+        <div class="user-info">
+          <img src="https://via.placeholder.com/40" alt="User Image">
+          <p>User Name</p>
+        </div>
+        <img src="https://via.placeholder.com/600x300" alt="Post Image">
+        <p>This is a sample post on Facebook. It could contain text, images, and other content.</p>
+        <footer>
+          <p>Like Comment Share</p>
+          <p>2 hours ago</p>
+        </footer>
+      </div>
+
+      <div class="post">
+        <div class="user-info">
+          <img src="https://via.placeholder.com/40" alt="User Image">
+          <p>Another User</p>
+        </div>
+        <img src="https://via.placeholder.com/600x300" alt="Post Image">
+        <p>Another post on Facebook. Feel free to share your thoughts and connect with others.</p>
+        <footer>
+          <p>Like Comment Share</p>
+          <p>3 hours ago</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2023 Facebook
+  </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#textshadow{
+    text-shadow:  2px 2px 1px rgba(0, 0, 0, 0);
+}
+#aboutheading{
+    color: #f76d37;
+}
+#imagesize{
+    height: 300px !important;
+}
+#iconwidth{
+    width: 45px;
+    min-height: 50px;
+}
+#orange-bg{
+    background-color: #f76d37;
+}

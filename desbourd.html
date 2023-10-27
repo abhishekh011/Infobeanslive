@@ -1,0 +1,181 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="desbourd.css">
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <h2>HEADER</h2>
+ 
+        </div>
+        <div id="header1">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Profile</button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="offcanvasRightLabel">Your Profile</h1>
+                <form id="log">
+                    <input type="submit" name="logout" value="Logout">
+                </form>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <table >
+                    <tr>
+                        <td>id</td>
+                        <td><span name="id"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><span name="name"></span></td>
+                        <td><a href="#"><u>edit</u></a></td>
+                    </tr>
+                    <tr>
+                        <td>Father</td>
+                        <td><span name="ename"></span></td>
+                        <td><a href="#"><u>edit</u></a></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><span name="email"></span></td>
+                        <td><a href="#"><u>edit</u></a></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><span name="pass"></span></td>
+                        <td><a href="#"><u>edit</u></a></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td><span name="mobile"></span></td>
+                        <td><a href=""><u>edit</u></a></td>
+                    </tr>
+                </table>
+              </div>
+              <div id="button">
+                <label for="toggler">
+                    Update
+                </label>
+                <input type="checkbox" id="toggler" name=""> 
+                <div id="update">
+
+                    <input type="text"required placeholder="Enter Your new name" name="newname">
+                    <input type="text" placeholder="Enter Father new name" name="newfname">
+                    <input type="text" placeholder="Enter Your new email" name="newemail">
+                    <input type="text" placeholder="Enter Your new password" name="newpass">
+                    <input type="text" placeholder="Enter Your new contact" name="newcontact">
+                    <input type="submit" value="Submit" name="newsubmit" id="sub">
+
+            </div>
+              </div>
+            </div>
+           
+         </div>
+           
+        <br>
+        <div id="header2">
+            <div id="image">
+                <img width="80%" src="info-removebg-preview.png" alt="">
+            </div>
+
+            <div id="navitem">
+                <ul>
+                    <li><a href="">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="">ABOUT <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="">GELLARY <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="">SERVICES <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div id="contact">
+                CONTACT US
+            </div>
+        </div>
+         <div id="main">
+            <div>
+                <span>about us</span><br>
+                <p>This is a basic layout that includes a header, a main content area with sample posts, and a footer.
+                    The styling is minimal and can be customized further based on your preferences. You can replace the
+                    placeholder images with actual content. </p>
+            </div>
+            <div>
+                <h2>services</h2>
+            </div>
+            <div>
+                <h2>gallery</h2>
+            </div>
+        </div> 
+        <div id="bottem">
+            <div>
+                <span>Get in Touch</span>
+                <ul>
+                    <li>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;ISRO BHARAT
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;012 345 67890
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;012 345 67890
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <span>Quick Links</span>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROPERTY</a></li>
+                    <li><a href="">PAGE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="login-container">
+                <h2>Login</h2>
+                <form>
+                    <input type="text" id="username" name="username" placeholder="Enter Name" required>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    <br>
+                    <center><button type="submit">Login</button></center>
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            <center>
+                &copy; All Rights Reserved | 2023 Designed by Itep-6 &trade;
+            </center>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+</head>
+<body>
+    <form action="">
+        <input type="password" name="old">
+        <input type="password" name="new">
+        <input type="password" name="new2">
+        <input type="submit" name="newpass">
+    </form>
+</body>
+</html>
